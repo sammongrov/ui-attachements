@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CameraScreen renders correctly with props 1`] = `
+<View>
+  <CameraRollPicker
+    cameraIconEnable={true}
+    cameraSwitch="back"
+    changeFlashAction={[Function]}
+    flashType="off"
+    goBack={[MockFunction]}
+    onCameraPress={[Function]}
+    recordIndicator={false}
+    recordingTime="00:10"
+    refs={[Function]}
+    switchAction={[Function]}
+    videoIconEnable={true}
+    videoRecord={[Function]}
+  >
+    
+  </CameraRollPicker>
+</View>
+`;

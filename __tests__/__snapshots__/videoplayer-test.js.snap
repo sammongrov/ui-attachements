@@ -1,0 +1,576 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoPlayer renders correctly with props 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      -16777216,
+      -16777216,
+    ]
+  }
+  locations={
+    Array [
+      0,
+      1,
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              undefined,
+              Object {
+                "opacity": 0,
+                "position": "absolute",
+                "width": "100%",
+                "zIndex": 100,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#2E88FF",
+                      "fontSize": 36,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                type="material-community"
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#2E88FF",
+                      "fontSize": 20,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "flex": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Video
+            controls={true}
+            muted={false}
+            onBuffer={[Function]}
+            onEnd={[Function]}
+            onError={[Function]}
+            onLoad={[Function]}
+            onLoadStart={[Function]}
+            onProgress={[Function]}
+            onSeek={[Function]}
+            paused={false}
+            rate={1}
+            repeat={false}
+            resizeMode="contain"
+            source={
+              Object {
+                "uri": "https://funny-videos.com/user123/video345.mpg4",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            volume={1}
+          >
+            
+          </Video>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "flex": 1,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "minHeight": 60,
+                  "padding": 10,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  numberOfLines={1}
+                >
+                  00:00
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  numberOfLines={1}
+                >
+                  00:00
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "zIndex": 50,
+                  }
+                }
+              >
+                <RCTSlider
+                  disabled={true}
+                  enabled={false}
+                  maximumTrackTintColor="#fff"
+                  maximumValue={1}
+                  minimumTrackTintColor="#2E88FF"
+                  minimumValue={0}
+                  onChange={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  onValueChange={[Function]}
+                  step={0.0001}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                  thumbTintColor="#fff"
+                  value={0}
+                />
+              </View>
+            </View>
+          </View>
+          <ActivityIndicator
+            animating={true}
+            color="#2E88FF"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Object {
+                "height": 120,
+                "left": 70,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 70,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;
+
+exports[`VideoPlayer renders correctly without props 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      -16777216,
+      -16777216,
+    ]
+  }
+  locations={
+    Array [
+      0,
+      1,
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              undefined,
+              Object {
+                "opacity": 0,
+                "position": "absolute",
+                "width": "100%",
+                "zIndex": 100,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#2E88FF",
+                      "fontSize": 36,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                type="material-community"
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+              ]
+            }
+          />
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "flex": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Video
+            controls={true}
+            muted={false}
+            onBuffer={[Function]}
+            onEnd={[Function]}
+            onError={[Function]}
+            onLoad={[Function]}
+            onLoadStart={[Function]}
+            onProgress={[Function]}
+            onSeek={[Function]}
+            paused={false}
+            rate={1}
+            repeat={false}
+            resizeMode="contain"
+            source={
+              Object {
+                "uri": "",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            volume={1}
+          >
+            
+          </Video>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "flex": 1,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "minHeight": 60,
+                  "padding": 10,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  numberOfLines={1}
+                >
+                  00:00
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  numberOfLines={1}
+                >
+                  00:00
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "zIndex": 50,
+                  }
+                }
+              >
+                <RCTSlider
+                  disabled={true}
+                  enabled={false}
+                  maximumTrackTintColor="#fff"
+                  maximumValue={1}
+                  minimumTrackTintColor="#2E88FF"
+                  minimumValue={0}
+                  onChange={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  onValueChange={[Function]}
+                  step={0.0001}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                  thumbTintColor="#fff"
+                  value={0}
+                />
+              </View>
+            </View>
+          </View>
+          <ActivityIndicator
+            animating={true}
+            color="#2E88FF"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Object {
+                "height": 120,
+                "left": 70,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 70,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;

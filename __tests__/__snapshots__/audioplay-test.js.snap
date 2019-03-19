@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AttachAudio renders correctly with props 1`] = `
+<View>
+  <View>
+    <View
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              undefined,
+              Object {
+                "backgroundColor": "#EFEFEF",
+              },
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#888888",
+                  "fontSize": 40,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            type="material-community"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <RCTSlider
+        disabled={true}
+        enabled={false}
+        maximumValue={1}
+        minimumTrackTintColor="#fff"
+        minimumValue={0}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onValueChange={[Function]}
+        step={0.0001}
+        style={
+          Array [
+            Object {
+              "height": 40,
+            },
+            undefined,
+          ]
+        }
+        thumbTintColor="#888888"
+        value={0}
+      />
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#888888",
+              "fontSize": 28,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        type="material-community"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          undefined,
+          Object {
+            "color": "#888888",
+          },
+        ]
+      }
+    >
+      00:00
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`AttachAudio renders correctly without props 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "minHeight": 65,
+      },
+    ]
+  }
+/>
+`;

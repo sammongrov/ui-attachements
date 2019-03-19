@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewImage render correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4278190080,
+      4278190080,
+    ]
+  }
+  locations={
+    Array [
+      0,
+      1,
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            undefined,
+            Object {
+              "backgroundColor": "#000",
+              "width": 720,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 100,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                undefined,
+                Object {
+                  "backgroundColor": "rgba(0,0,0,0.7)",
+                  "borderBottomWidth": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontSize": 36,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  type="material-community"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                  null,
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "OpenSans-Regular",
+                    },
+                    Array [
+                      undefined,
+                      Object {
+                        "color": "#fff",
+                      },
+                    ],
+                  ]
+                }
+              >
+                Image Preview
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontSize": 22,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  type="material-community"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <ImageViewer
+          backgroundColor="#000"
+          enableImageZoom={true}
+          imageUrls={
+            Array [
+              Object {
+                "url": "test_imageUrl",
+              },
+            ]
+          }
+          loadingRender={[Function]}
+          renderImage={[Function]}
+          renderIndicator={[Function]}
+        >
+          
+        </ImageViewer>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;
