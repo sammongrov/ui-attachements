@@ -35,8 +35,8 @@ import {
 import { AttachAudio, AudioPlay } from '@ui/attachments';
 // import DBManager from '../app/DBManager';
 import {DBManager} from 'app-module';
-import Application from '../constants/config';
-import videoThumbnail from '../images/videoThumb.jpg';
+import {Application} from '@mongrov/config';
+import videoThumbnail from '../../../src/images/videoThumb.jpg';
 
 export default class ReplyMessage extends Component {
   constructor(props) {

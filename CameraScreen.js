@@ -5,7 +5,7 @@ import { styles } from 'react-native-theme';
 import PropTypes from 'prop-types';
 import { RNCamera } from 'react-native-camera';
 import { Camera } from '@ui/components';
-import { Config } from '@appConfig';
+import { Config } from '@mongrov/config';
 
 const flashModeOrder = {
   off: 'on',
